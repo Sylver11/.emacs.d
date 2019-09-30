@@ -1,1 +1,1 @@
-("~/routing/" "~/testing/" "~/testing3/" "~/testing2/" "~/datomic/" "~/poker/")
+("~/.emacs.d/" "~/routing/" "~/testing/" "~/testing3/" "~/testing2/" "~/datomic/" "~/poker/")
