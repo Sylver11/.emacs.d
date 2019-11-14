@@ -2,6 +2,16 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/" . "pages/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/" . "cognician/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/" . "scss/")
+ ("/Users/justusvoigt/Code/todo-clojure/src/" . "todo_clojure/")
+ ("/Users/justusvoigt/Code/todo-clojure/" . "src/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/" . "builder/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/" . "cognician/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/" . "resources/")
+ ("/Users/justusvoigt/Code/Cognician/" . "Monolith/")
+ ("/Users/justusvoigt/Code/" . "todo-clojure/")
  ("/Users/justusvoigt/routing/src/routing/" . "views/")
  ("/Users/justusvoigt/routing/resources/public/" . "css/")
  ("/Users/justusvoigt/routing/resources/" . "public/")
@@ -25,15 +35,22 @@
  ("/Users/justusvoigt/test/" . "src/")
  ("/Users/justusvoigt/testing/src/" . "clj/")
  ("/Users/justusvoigt/testing/" . "src/")
- ("/Users/justusvoigt/" . "routing/")
+ ("/Users/justusvoigt/" . "Code/")
 )
 
 ;; ----- ido-work-directory-list -----
 (
+ "/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/"
+ "/Users/justusvoigt/.emacs.d/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/pages/"
+ "/Users/justusvoigt/Code/todo-clojure/"
  "/Users/justusvoigt/routing/src/routing/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/builder/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/server/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/"
  "/Users/justusvoigt/routing/src/routing/views/"
- "/Users/justusvoigt/routing/"
  "/Users/justusvoigt/"
+ "/Users/justusvoigt/routing/"
  "/Users/justusvoigt/routing/resources/public/css/"
  "/Users/justusvoigt/routing/resources/public/js/"
  "/Users/justusvoigt/testing/src/clj/testing/"
@@ -59,27 +76,61 @@
 
 ;; ----- ido-work-file-list -----
 (
- "handler.clj"
- "database_writes.clj"
- "success.clj"
- "experience.clj"
- "layout.clj"
- "registration.clj"
+ "core.clj"
+ "init.el"
+ "_team.scss"
  "project.clj"
- "database-writes.clj"
- ".emacs"
- "markup-todo"
+ "database_writes.clj"
+ "handler.clj"
+ "remotes.clj"
+ "validation.clj"
+ "user.clj"
+ "validators.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/justusvoigt/" (23950 2311 64839 516000) "#%2Ascratch%2A#DYBMSs#" "datomic-pro-0.8.3704/" ".zcompdump-Admin’s MacBook Air-5.7.1" ".viminfo" ".bash_history" "#init.el#" "#%2Ascratch%2A#xKcbY4#" "#%2Ascratch%2A#hPX4vB#" ".gitconfig" ".cache/" "Downloads/" ".oh-my-zsh/" ".Xauthority" "datomic-free/" "fonts/" ".m2/" ".vscode/" ".mysql_history" "#%2Ascratch%2A#UqdOPi#" ".ngrok2/" "routing/" "#%2Ascratch%2A#7T4VN2#" "Documents/" ".zcompdump-Admin’s MacBook Air-5.3" "#%2Ascratch%2A#hJWvUR#" "example.js" ".zoomus/" ".Trash/" ".emacs~" "Applications/" ".emacs" "Movies/" ".ssh/" ".git-credentials" "datomic/" ".my_custom_commands.sh" "#%2Ascratch%2A#tr24pG#" "Public/" ".lein/" ".bash_sessions/" "testing/" ".cups/" "pyduino_webapi/" ".emacs.d/" ".emacs--bak" ".oracle_jre_usage/" "zilla/" "Trash/" "Library/" "Desktop/" ".zsh_history" "demeter/" "#%2Ascratch%2A#NuWOve#" "cog" ".shell.pre-oh-my-zsh" "#%2Ascratch%2A#ZSzUur#" "#%2Ascratch%2A#miwMsV#" "Pictures/" ".local/" "OneDrive/" "#%2Ascratch%2A#bW8ibJ#" ".zshrc" ".jssc/" "clojure/" "testing3/" "bin/" "poker/" "justus-voigt-cv/" "test/" ".CFUserTextEncoding" "#%2Ascratch%2A#BQIaHe#" "testing2/" ".gnupg/" ".DS_Store" ".vim/" "db.sql" ".gnupg_pre_2.1/" "ngrok" ".zcompdump-Justus MacBook Air-5.3" "Music/" ".config/" "../" "./")
+ ("/Users/justusvoigt/" (24002 48742 388670 588000) "#%2Ascratch%2A#HEmpen#" ".scss-lint.yml" ".zcompdump-Justus MacBook Air-5.7.1" "#%2Ascratch%2A#DYBMSs#" ".zcompdump-Admin’s MacBook Air-5.7.1" ".viminfo" ".bash_history" "#init.el#" "#%2Ascratch%2A#xKcbY4#" "#%2Ascratch%2A#hPX4vB#" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".Xauthority" "fonts/" ".gem/" ".antigen/" ".m2/" ".fzf/" ".vscode/" ".vim.plug/" ".mysql_history" "#%2Ascratch%2A#UqdOPi#" ".ngrok2/" "routing/" "#%2Ascratch%2A#7T4VN2#" "Documents/" ".zcompdump-Admin’s MacBook Air-5.3" "hello/" "#%2Ascratch%2A#hJWvUR#" "aws" "example.js" ".zoomus/" ".Trash/" ".emacs~" "Applications/" ".emacs" ".vimrc" "Movies/" ".ssh/" ".git-credentials" "datomic/" "temp.py" ".my_custom_commands.sh" "#%2Ascratch%2A#tr24pG#" ".fzf.bash" "Public/" ".zshrc.zwc" ".fzf.zsh" ".lein/" ".bash_sessions/" "testing/" ".cups/" "pyduino_webapi/" ".emacs.d/" ".emacs--bak" ".oracle_jre_usage/" "zilla/" "Trash/" "#%2Ascratch%2A#fgcfj4#" "Library/" "Desktop/" ".zsh_history" "#%2Ascratch%2A#NuWOve#" "Code/" "cog" "Postman/" "vimplug-plugins/" ".atom/" ".shell.pre-oh-my-zsh" "#%2Ascratch%2A#ZSzUur#" "#%2Ascratch%2A#miwMsV#" "Pictures/" ".local/" "productionconfbackup.conf" "OneDrive/" "#%2Ascratch%2A#bW8ibJ#" ".zshrc" ".bashrc" ".jssc/" ".op/" "clojure/" "testing3/" "bin/" "#%2Ascratch%2A#DehZVz#" "poker/" "justus-voigt-cv/" "test/" ".CFUserTextEncoding" "#%2Ascratch%2A#BQIaHe#" "testing2/" ".gnupg/" ".DS_Store" ".vim/" "db.sql" ".gnupg_pre_2.1/" ".docker/" ".clojure/" "ngrok" ".zcompdump-Justus MacBook Air-5.3" "Music/" ".config/" ".vimrc.plug" "../" "./")
 
- ("/Users/justusvoigt/routing/src/routing/" (23939 16837 127619 314000) "views/" "handler.clj" "markup-todo" "layout.clj" "database_writes.clj" "../" "./")
+ ("/Users/justusvoigt/.emacs.d/" (24001 14771 815187 300000) ".git/" "elpa/" ".emacs" "network-security.data" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "ido.last" "../" "./")
 
- ("/Users/justusvoigt/routing/" (23939 14758 915725 95000) "src/" ".git/" ".gitignore" ".lein-repl-history" "README.md" "resources/" "target/" "test/" ".DS_Store" "project.clj" "../" "./")
+ ("/Users/" (23953 4748 0 0) "justusvoigt/" "Shared/" "admin/" ".localized" "../" "./")
 
- ("/Users/justusvoigt/routing/src/routing/views/" (23938 19636 740996 359000) "index.clj" "experience.clj" "registration.clj" "about.clj" "success.clj" "error.clj" "portfolio.clj" "../" "./")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/pages/" (23964 13054 471812 72000) "design-job-specs/" "_my-cogs.scss" "_partners.scss" "_product-modals.scss" "_team.scss" "ey-error-pages.scss" "_news.scss" "_keyframes.scss" "_features.scss" "_profile.scss" "_login.scss" "_bod.scss" "_support.scss" "_products.scss" "_reset-password.scss" "_about.scss" "_error-pages.scss" "_clients.scss" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/" (23964 13054 449336 620000) "_base.scss" "base/" "helpers/" "pages/" "external/" "gallery.scss" "_core.scss" "_content.scss" "components/" "layout/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/" (23964 13054 676673 942000) "bundles/" "video-player.scss" "cognician.scss" "apps/" "pages/" "c3.scss" "back-modal-page.scss" "_compass.scss" "error-pages.scss" "style-server.scss" "compass/" "gallery.scss" "bourbon/" "partners/" "back-style.scss" "radiant/" "debug.scss" "groups/" "old/" "learning-hub/" "cognician/" "suites/" "bootstrap/" "builder.scss" "impersonate.scss" "_bourbon.scss" "insights/" "sidebar/" "email.scss" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/" (23964 13054 903002 169000) "scss.command" ".scss-lint.yml" "i18n/" "templates/" "public/" "README.md" ".csscomb.json" "scss/" "test/" "tools/" "ua/" ".stylelintrc.js" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/" (24001 12283 720508 122000) "src/" "src-cljc/" ".git/" "src-radiant/" "dev/" ".buildkite/" ".github/" "scripts/" ".projectile" "package.json" ".gitignore" "logs/" "src-builder/" "README.md" "keystore.jks" "docs/" ".ignore" "shrinkwrap.yaml" "resources/" "logback-stdout.xml" "target/" "figwheel_server.log" "run.applescript" "services.edn" "test/" "csrf_exceptions.edn" ".DS_Store" "tools/" "project.clj" "logback.xml" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/" (24001 12720 998763 593000) "core.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/" (23992 32521 836968 611000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/src/" (23992 14827 661949 49000) "todo_clojure/" "../" "./")
+
+ ("/Users/justusvoigt/Code/" (23992 14827 656898 364000) "demeter/" "Cognician/" "todo-clojure/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/builder/" (23984 27676 691342 169000) "cog_metrics.clj" "views/" "views.clj" "drafts.clj" "entity_search.clj" "api.clj" "validation.clj" "cogdev_groups.clj" "validators.clj" "i18n.clj" "remotes.clj" "mails.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/" (23982 43040 838227 433000) "config.clj" "dsl/" "create/" "builder/" "i18n/" "cache_bust.clj" "db/" "server_daemon.clj" "sso/" "radiant/" "server/" "pubsub.clj" "coach_finder/" "peerwatch.clj" "util.clj" "log.clj" "language.clj" "group_override.clj" "ad_hoc_reports/" "i18n.clj" "strings/" "radiant.clj" "homeless/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/server/" (23967 21038 492179 443000) "multifactor.clj" "user.clj" "views/" "ua_info.clj" "server.clj" "ua.clj" "dogstatsd.clj" "models/" "c3_url.clj" "middleware.clj" "anti_forgery.clj" "util.clj" "apis/" "str_utils.clj" "home_page.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/db/" (23964 13055 168145 872000) "bundles/" "chat_avatars.clj" "suites.clj" "variables.clj" "translate.clj" "events.clj" "bundles.clj" "leaderboards/" "sessions.clj" "requests.clj" "entitlements.clj" "chats.clj" "badges.clj" "core.clj" "follow_through.clj" "groups.clj" "favorites.clj" "dependencies.clj" "assessment_360.clj" "util.clj" "tags.clj" "guests.clj" "points.clj" "leaderboards.clj" "users.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/src/" (23964 13055 365558 276000) "cognician/" "shoreleave/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/" (23976 6384 342678 445000) "Base/" "Manage/" "Hive/" "Builder2/" "Litmus/" "Variables/" "Semaphore/" "Tock/" "Reactions/" "Chat/" "bootstrap/" "Monolith/" "Echo/" "Insights/" "Adaptive-Sidebars/" "Terra/" "zsh-plugin/" "../" "./")
+
+ ("/Users/justusvoigt/routing/src/routing/" (23956 25981 331708 819000) "views/" "handler.clj" "markup-todo" "layout.clj" "database_writes.clj" "../" "./")
+
+ ("/Users/justusvoigt/routing/" (23955 1584 475998 431000) "src/" ".git/" ".gitignore" ".lein-repl-history" "README.md" "resources/" "target/" "test/" ".DS_Store" "project.clj" "../" "./")
+
+ ("/Users/justusvoigt/routing/src/routing/views/" (23954 63980 475397 313000) "index.clj" "experience.clj" "registration.clj" "about.clj" "success.clj" "error.clj" "portfolio.clj" "../" "./")
 
  ("/Users/justusvoigt/.ssh/" (23931 17674 355026 37000) "known_hosts" "authorized_key/" "#confg#" ".config.swp" "id_rsa.pub" "authorized_keys/" "general-key-private.pem" "id_rsa" "config" "../" "./")
 
@@ -144,8 +195,6 @@
  ("/Users/justusvoigt/testing2/src/" (23866 45989 774757 762000) "testing2/" "../" "./")
 
  ("/Users/justusvoigt/datomic/" (23861 31159 129760 213000) "LICENSE-CONSOLE" "COPYRIGHT" "log/" "CHANGES.md" "lib/" "VERSION" "CHANGES-CONSOLE.md" "samples/" "README" "pom.xml" "datomic-transactor-pro-0.9.5930.jar" "resources/" "datomic-pro-0.9.5930.jar" "config/" "bin/" "LICENSE" "README-CONSOLE.md" ".DS_Store" "../" "./")
-
- ("/Users/" (23817 57049 520624 322000) "justusvoigt/" "Shared/" "admin/" ".localized" "../" "./")
 
  ("/Users/justusvoigt/test/src/test/" (23830 9159 976298 680000) "core.clj" "../" "./")
 

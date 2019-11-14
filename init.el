@@ -69,7 +69,20 @@ There are two things you can do about this warning:
 
 
 (global-set-key (kbd "M-o") 'ace-window)
-
+(defvar aw-dispatch-alist
+  '((?x aw-delete-window "Delete Window")
+  (?m aw-swap-window "Swap Windows")
+  (?M aw-move-window "Move Window")
+  (?c aw-copy-window "Copy Window")
+  (?j aw-switch-buffer-in-window "Select Buffer")
+  (?n aw-flip-window)
+  (?u aw-switch-buffer-other-window "Switch Buffer Other Window")
+  (?c aw-split-window-fair "Split Fair Window")
+  (?v aw-split-window-vert "Split Vert Window")
+  (?b aw-split-window-horz "Split Horz Window")
+  (?o delete-other-windows "Delete Other Windows")
+  (?? aw-show-dispatch-help))
+  "List of actions for `aw-dispatch-default'.")
 
 
 (setq frame-title-format
@@ -210,15 +223,15 @@ There are two things you can do about this warning:
 
 
 ;;splitting the windows into 3 parts
-(defun split-4-ways ()
-  (interactive)
-  (delete-other-windows)
-  (split-window-right)
-  (split-window-below)
-  (windmove-right)
-  (windmove-left))
+;; (defun split-4-ways ()
+;;   (interactive)
+;;   (delete-other-windows)
+;;   (split-window-right)
+;;   (split-window-below)
+;;   (windmove-right)
+;;   (windmove-left))
 
-(split-4-ways)
+;;(split-4-ways)
 
 (menu-bar-mode t)
 

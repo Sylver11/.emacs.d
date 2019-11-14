@@ -210,15 +210,15 @@ There are two things you can do about this warning:
 
 
 ;;splitting the windows into 3 parts
-(defun split-4-ways ()
-  (interactive)
-  (delete-other-windows)
-  (split-window-right)
-  (split-window-below)
-  (windmove-right)
-  (windmove-left))
+;; (defun split-4-ways ()
+;;   (interactive)
+;;   (delete-other-windows)
+;;   (split-window-right)
+;;   (split-window-below)
+;;   (windmove-right)
+;;   (windmove-left))
 
-(split-4-ways)
+;;(split-4-ways)
 
 (menu-bar-mode t)
 
