@@ -1,1 +1,1 @@
-("~/Code/Cognician/Monolith/" "~/Code/todo-clojure/" "~/.emacs.d/" "~/routing/" "~/Code/Cognician/bootstrap/" "~/testing/" "~/testing3/" "~/testing2/" "~/datomic/" "~/poker/")
+("~/Code/ring-server/" "~/.emacs.d/" "~/Code/Cognician/Monolith/" "~/Code/todo-clojure/" "~/routing/" "~/Code/Cognician/bootstrap/" "~/testing/" "~/testing3/" "~/testing2/" "~/datomic/" "~/poker/")

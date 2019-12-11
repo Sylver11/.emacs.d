@@ -2,17 +2,21 @@
 
 ;; ----- ido-last-directory-list -----
 (
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/bundles/" . "edu_nu_dcp_leading_with_advanced_analytics_and_ai/")
+ ("/Users/justusvoigt/Code/ring-server/src/" . "ring_server/")
+ ("/Users/justusvoigt/Code/ring-server/" . "src/")
+ ("/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/" . "views/")
  ("/Users/justusvoigt/Code/Cognician/Monolith/resources/templates/" . "bundles/")
  ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/" . "pages/")
- ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/" . "cognician/")
- ("/Users/justusvoigt/Code/Cognician/Monolith/resources/" . "templates/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/" . "bundles/")
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/" . "scss/")
  ("/Users/justusvoigt/Code/todo-clojure/src/" . "todo_clojure/")
  ("/Users/justusvoigt/Code/todo-clojure/" . "src/")
  ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/" . "builder/")
  ("/Users/justusvoigt/Code/Cognician/Monolith/src/" . "cognician/")
  ("/Users/justusvoigt/Code/Cognician/Monolith/" . "resources/")
  ("/Users/justusvoigt/Code/Cognician/" . "Monolith/")
- ("/Users/justusvoigt/Code/" . "Cognician/")
+ ("/Users/justusvoigt/Code/" . "ring-server/")
  ("/Users/justusvoigt/routing/src/routing/" . "views/")
  ("/Users/justusvoigt/routing/resources/public/" . "css/")
  ("/Users/justusvoigt/routing/resources/" . "public/")
@@ -41,11 +45,15 @@
 
 ;; ----- ido-work-directory-list -----
 (
- "/Users/justusvoigt/Code/Cognician/Monolith/resources/templates/bundles/"
+ "/Users/justusvoigt/Code/ring-server/src/ring_server/"
+ "/Users/justusvoigt/Code/ring-server/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/bundles/edu_nu_dcp_leading_with_advanced_analytics_and_ai/"
  "/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/"
+ "/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/views/"
+ "/Users/justusvoigt/Code/todo-clojure/"
+ "/Users/justusvoigt/Code/Cognician/Monolith/resources/templates/bundles/"
  "/Users/justusvoigt/.emacs.d/"
  "/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/cognician/pages/"
- "/Users/justusvoigt/Code/todo-clojure/"
  "/Users/justusvoigt/routing/src/routing/"
  "/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/builder/"
  "/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/server/"
@@ -78,27 +86,45 @@
 
 ;; ----- ido-work-file-list -----
 (
- "accenture_dcp_digital_quizzes.html"
+ "views"
  "core.clj"
+ "project.clj"
+ "_flair.scss"
+ "home.clj"
+ "accenture_dcp_digital_quizzes.html"
  "init.el"
  "_team.scss"
- "project.clj"
  "database_writes.clj"
  "handler.clj"
- "remotes.clj"
- "validation.clj"
- "user.clj"
 )
 
 ;; ----- ido-dir-file-cache -----
 (
- ("/Users/justusvoigt/" (24013 6599 404760 192000) "#%2Ascratch%2A#HEmpen#" ".scss-lint.yml" ".zcompdump-Justus MacBook Air-5.7.1" "#%2Ascratch%2A#DYBMSs#" ".zcompdump-Admin’s MacBook Air-5.7.1" ".viminfo" ".bash_history" "#init.el#" "#%2Ascratch%2A#xKcbY4#" "#%2Ascratch%2A#hPX4vB#" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".Xauthority" "_team.scss" "fonts/" ".gem/" ".antigen/" ".m2/" ".fzf/" ".vscode/" ".vim.plug/" ".mysql_history" "#%2Ascratch%2A#UqdOPi#" ".ngrok2/" "routing/" "#%2Ascratch%2A#7T4VN2#" "Documents/" ".zcompdump-Admin’s MacBook Air-5.3" "hello/" "#%2Ascratch%2A#hJWvUR#" "aws" "example.js" ".zoomus/" ".Trash/" ".emacs~" "Applications/" ".vimrc" "Movies/" ".ssh/" ".git-credentials" "datomic/" "temp.py" ".my_custom_commands.sh" "#%2Ascratch%2A#tr24pG#" ".fzf.bash" "Public/" ".zshrc.zwc" ".fzf.zsh" ".lein/" ".bash_sessions/" "testing/" ".cups/" "pyduino_webapi/" ".emacs.d/" ".emacs--bak" ".oracle_jre_usage/" "zilla/" "Trash/" "#%2Ascratch%2A#fgcfj4#" "Library/" "Desktop/" ".zsh_history" "demeter/" "#%2Ascratch%2A#NuWOve#" "Code/" "cog" "Postman/" "vimplug-plugins/" "ownCloud/" ".atom/" ".shell.pre-oh-my-zsh" "#%2Ascratch%2A#ZSzUur#" "#%2Ascratch%2A#miwMsV#" ".pylint.d/" "Pictures/" ".local/" "productionconfbackup.conf" "OneDrive/" "#%2Ascratch%2A#bW8ibJ#" ".zshrc" ".bashrc" ".jssc/" ".op/" "clojure/" ".emacs_backup" "testing3/" "bin/" "#%2Ascratch%2A#DehZVz#" "poker/" "justus-voigt-cv/" "test/" ".CFUserTextEncoding" "#%2Ascratch%2A#BQIaHe#" "testing2/" ".gnupg/" ".DS_Store" ".vim/" "db.sql" ".gnupg_pre_2.1/" ".docker/" ".clojure/" "ngrok" ".zcompdump-Justus MacBook Air-5.3" "Music/" ".config/" ".vimrc.plug" "../" "./")
+ ("/Users/justusvoigt/Code/ring-server/src/ring_server/" (24047 41773 523475 242000) "core.clj" "../" "./")
+
+ ("/Users/justusvoigt/" (24047 38607 731149 544000) "#%2Ascratch%2A#HEmpen#" ".scss-lint.yml" "mu_code/" ".zcompdump-Justus MacBook Air-5.7.1" "#%2Ascratch%2A#DYBMSs#" ".zcompdump-Admin’s MacBook Air-5.7.1" ".viminfo" ".bash_history" "#init.el#" "#%2Ascratch%2A#xKcbY4#" "#%2Ascratch%2A#hPX4vB#" ".gitconfig" ".aws/" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".Xauthority" "_team.scss" "fonts/" ".gem/" ".antigen/" ".m2/" ".fzf/" ".vscode/" ".vim.plug/" ".mysql_history" "#%2Ascratch%2A#UqdOPi#" ".ngrok2/" "routing/" "#%2Ascratch%2A#7T4VN2#" "Documents/" ".zcompdump-Admin’s MacBook Air-5.3" "hello/" "#%2Ascratch%2A#hJWvUR#" "aws" "example.js" ".zoomus/" ".Trash/" ".emacs~" "Applications/" ".vimrc" "Movies/" ".ssh/" ".git-credentials" "datomic/" "temp.py" ".my_custom_commands.sh" "#%2Ascratch%2A#tr24pG#" ".fzf.bash" "Public/" ".zshrc.zwc" ".fzf.zsh" ".lein/" ".bash_sessions/" "testing/" ".cups/" "pyduino_webapi/" ".emacs.d/" ".emacs--bak" ".oracle_jre_usage/" "zilla/" "Trash/" "#%2Ascratch%2A#fgcfj4#" "Library/" "Desktop/" ".zsh_history" "demeter/" "#%2Ascratch%2A#NuWOve#" "Code/" "cog" "Postman/" "vimplug-plugins/" "ownCloud/" ".atom/" ".shell.pre-oh-my-zsh" "#%2Ascratch%2A#ZSzUur#" "#%2Ascratch%2A#miwMsV#" ".pylint.d/" "Pictures/" ".local/" "productionconfbackup.conf" "OneDrive/" "#%2Ascratch%2A#bW8ibJ#" ".zshrc" ".bashrc" ".jssc/" ".op/" "clojure/" ".emacs_backup" "testing3/" "bin/" "#%2Ascratch%2A#DehZVz#" "poker/" "justus-voigt-cv/" "#%2Ascratch%2A#SOFKwh#" "test/" ".CFUserTextEncoding" "#%2Ascratch%2A#BQIaHe#" "testing2/" ".gnupg/" ".DS_Store" ".vim/" "db.sql" ".gnupg_pre_2.1/" ".docker/" ".clojure/" "ngrok" ".zcompdump-Justus MacBook Air-5.3" "Music/" ".config/" ".vimrc.plug" "../" "./")
+
+ ("/Users/justusvoigt/Code/ring-server/" (24047 22852 485429 454000) "src/" ".git/" "doc/" ".gitignore" ".lein-repl-history" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" ".DS_Store" "project.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/" (24042 31381 311163 556000) "demeter_jasmin/" "demeter/" "code/" "Cognician/" "ring-server/" ".DS_Store" "todo-clojure/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/bundles/edu_nu_dcp_leading_with_advanced_analytics_and_ai/" (24028 62540 52309 39000) "_modal.scss" "_flair.scss" "_mobile-styles.scss" "_variables.scss" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/resources/scss/bundles/" (24028 62540 52857 773000) "cci/" "suite_inclusion_at_work.scss" "accenture_ldna_10dc.scss" "layout-mdc-bubble/" "accenture_30_day_challenge_ireland_acg/" "accenture_leading_with_analytics_powered_strategy.scss" "accenture_wca_inclusion_and_diversity.scss" "corporate_diageo_my_purpose_insights_tool.scss" "corporate_dnvgl_new_managers_survival_guide/" "accenture_30_day_challenge_inclusion/" "corporate_dnv_gl_lead_wellbeing.scss" "ey_catalyst.scss" "corporate_tjx_30_day_challenge_inclusion_and_diversity.scss" "corporate_diageo_team_insights/" "accenture_leadership_dna_accelerator/" "layout-dcp.scss" "accenture_dcp_digital_quizzes.scss" "suite_hsg_strengths_engage/" "corporate-de-beers-bespoke-cogs.scss" "cci_quest_linkedin_skills_excellerator/" "corporate_dnv_gl_feedback_tools/" "layout-wca-demo/" "accenture_coach_now/" "corporate_wejungo_hiring_best_practices.scss" "corporate_nike_dcp_line_planning/" "suite_leadership_accelerator.scss" "cci_quest_linkedin_skills_excellerator.scss" "corporate_shell_wca_sales_and_marketing.scss" "accenture_30_day_challenge_coaching.scss" "corporate_gazelle_partners_wellbeing_challenge/" "suite_inclusion_at_work/" "corporate_nike_dcp_final_design_intent.scss" "eco_ventures_market_systems_accelerator.scss" "accenture_30_day_challenge_information_security.scss" "eco_ventures_market_systems_accelerator/" "layout-wca-demo.scss" "corporate_mckesson_wca_it.scss" "suite_la_bandwidth-lite/" "accenture_coach_now.scss" "corporate_nike_dcp_final_design_intent/" "layout-mdc-bubble.scss" "corporate_gazelle_partners_wellbeing/" "accenture_courageous_conversations.scss" "accenture_30_day_challenge_information_security/" "layout-wca.scss" "suite_leadership_accelerator/" "suite_la_bandwidth-lite.scss" "corporate_gazelle_partners_wellbeing.scss" "layout-dcp-client-nk.scss" "layout-dcp-client-nk/" "corporate_wejungo_hiring_best_practices/" "corporate_diageo_team_insights.scss" "de-beers/" "default/" "corporate_gazelle_partners_wellbeing_challenge.scss" "accenture_mdc_contract_management_new_joiner_onboarding/" "layout-mdc-dbd-demo/" "suite_delight_at_work/" "corporate_dnv_gl_feedback_tools.scss" "corporate_nike_dcp_line_planning.scss" "corporate_mckesson_wca_it/" "edu_nu_dcp_leading_with_advanced_analytics_and_ai.scss" "accenture_ldna_10dc/" "layout-wca/" "accenture_courageous_conversations/" "corporate_shell_wca_sales_and_marketing/" "suite_hsg_strengths_engage.scss" "suite_delight_at_work.scss" "corporate_nike_03_day_challenge_practice_to_play.scss" "corporate_speechskills_credibility_quest.scss" "accenture_30_day_challenge_ireland_acg.scss" "accenture_wca_inclusion_and_diversity/" "layout-dcp-dm/" "accenture_leading_with_analytics_powered_strategy/" "accenture_30_day_challenge_coaching/" "corporate_dnvgl_new_managers_survival_guide.scss" "edu_nu_dcp_leading_with_advanced_analytics_and_ai/" "layout-dcp/" "corporate_tjx_30_day_challenge_inclusion_and_diversity/" "accenture_dcp_digital_quizzes/" "layout-mdc-dbd.scss" "corporate_nike_03_day_challenge_practice_to_play/" "corporate_diageo_my_purpose_insights_tool/" "layout-mdc-dbd-demo.scss" "accenture_30_day_challenge_inclusion.scss" "corporate_speechskills_credibility_quest/" "accenture_leadership_dna_accelerator.scss" "corporate_da_vinci_management_of_technology.scss" "default.scss" "accenture_mdc_contract_management_new_joiner_onboarding.scss" "layout-dcp-dm.scss" "corporate_da_vinci_management_of_technology/" "layout-mdc-dbd/" "corporate_dnv_gl_lead_wellbeing/" "../" "./")
+
+ ("/Users/justusvoigt/Code/Cognician/Monolith/" (24038 1815 226650 12000) "src/" "src-cljc/" ".git/" "src-radiant/" "dev/" ".buildkite/" ".github/" "scripts/" ".projectile" "package.json" ".gitignore" "logs/" "scratch/" ".lein-repl-history" "src-builder/" "README.md" "keystore.jks" "docs/" ".ignore" "shrinkwrap.yaml" ".nrepl-port" "resources/" "logback-stdout.xml" "target/" "figwheel_server.log" "run.applescript" "services.edn" "test/" "csrf_exceptions.edn" ".DS_Store" "tools/" "project.clj" "logback.xml" "../" "./")
+
+ ("/Users/justusvoigt/Code/ring-server/src/" (24030 31373 912575 123000) "ring_server/" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/" (24029 9975 410126 306000) "views/" "core.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/views/" (24028 60900 883469 631000) "home.clj" "../" "./")
+
+ ("/Users/justusvoigt/Code/todo-clojure/" (24028 62644 747996 577000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
 
  ("/Users/justusvoigt/Code/Cognician/Monolith/resources/templates/bundles/" (24009 33321 430215 770000) "corporate_wejungo_hiring_best_practices.html" "default-cci.it.html" "default-cci.pt.html" "layout-dcp.html" "accenture_dcp_digital_quizzes.html" "corporate_tjx_30_day_challenge_inclusion_and_diversity.html" "corporate_svb_30dc_leadership_2018.html" "corporate_dnv_gl_lead_wellbeing.html" "suite_cycan.html" "corporate_diageo_my_purpose_insights_tool.html" "accenture_wca_inclusion_and_diversity.html" "accenture_leading_with_analytics_powered_strategy.html" "accenture_10_day_challenge_leadership_dna_innovate.html" "suite_inclusion_at_work.html" "layout-wca.html" "accenture_courageous_conversations.html" "default-cci.nl.html" "layout-mdc-bubble.html" "accenture_coach_now.html" "layout-wca-demo.html" "corporate_mckesson_wca_it.html" "accenture_30_day_challenge_information_security.html" "corporate_mckesson_wca_hr.html" "corporate_nike_dcp_final_design_intent.html" "eco_ventures_market_systems_accelerator.html" "accenture_30_day_challenge_coaching.html" "corporate_shell_wca_sales_and_marketing.html" "cci_quest_linkedin_skills_excellerator.html" "suite_leadership_accelerator.html" "corporate_de_beers_bespoke_cogs.html" "accenture_30_day_challenge_ireland_acg.html" "corporate_nike_03_day_challenge_practice_to_play.html" "accenture_10_day_challenge_leadership_dna_execute.html" "corporate_speechskills_credibility_quest.html" "corporate_de_beers_bespoke_cogs_debswana.html" "suite_hsg_strengths_engage.html" "suite_delight_at_work.html" "default-cci.es.html" "edu_nu_dcp_leading_with_advanced_analytics_and_ai.html" "corporate_nike_dcp_line_planning.html" "corporate_dnv_gl_feedback_tools.html" "corporate_gazelle_partners_wellbeing_challenge.html" "ey.html" "default-cci.html" "accenture_30_day_challenge_analyst_consulting_group_onboarding.html" "corporate_gazelle_partners_wellbeing.html" "layout-dcp-client-nk.html" "progress/" "layout-dcp-dm.html" "corporate_diageo_my_purpose_insights_tool_rater.html" "accenture_10_day_challenge_leadership_dna_personalize.html" "accenture_mdc_contract_management_new_joiner_onboarding.html" "accenture_leadership_dna_accelerator.html" "corporate_da_vinci_management_of_technology.html" "default.html" "accenture_30_day_challenge_inclusion.html" "layout-mdc-dbd-demo.html" "layout-mdc-dbd.html" "default-cci.fr.html" "accenture_10_day_challenge_leadership_dna_collaborate.html" "corporate_dnvgl_new_managers_survival_guide.html" "accenture_10_day_challenge_leadership_dna_advocate.html" "default-cci.zh-CN.html" "insights/" "../" "./")
 
  ("/Users/justusvoigt/Code/Cognician/Monolith/resources/templates/" (23964 13054 834689 76000) "bundles/" "reports/" "cog-shells/" "apps/" "pages/" "partners/" "static/" "layouts/" "groups/" "learning-hub/" "suites/" "access/" "test/" "insights/" "../" "./")
-
- ("/Users/justusvoigt/Code/Cognician/Monolith/" (24009 33278 438390 544000) "src/" "src-cljc/" ".git/" "src-radiant/" "dev/" ".buildkite/" ".github/" "scripts/" ".projectile" "package.json" ".gitignore" "logs/" "src-builder/" "README.md" "keystore.jks" "docs/" ".ignore" "shrinkwrap.yaml" "resources/" "logback-stdout.xml" "target/" "figwheel_server.log" "run.applescript" "services.edn" "test/" "csrf_exceptions.edn" ".DS_Store" "tools/" "project.clj" "logback.xml" "../" "./")
 
  ("/Users/justusvoigt/.emacs.d/" (24001 14771 815187 300000) ".git/" "elpa/" ".emacs" "network-security.data" "init.el" "auto-save-list/" "projectile-bookmarks.eld" "ido.last" "../" "./")
 
@@ -112,13 +138,7 @@
 
  ("/Users/justusvoigt/Code/Cognician/Monolith/resources/" (23964 13054 903002 169000) "scss.command" ".scss-lint.yml" "i18n/" "templates/" "public/" "README.md" ".csscomb.json" "scss/" "test/" "tools/" "ua/" ".stylelintrc.js" "../" "./")
 
- ("/Users/justusvoigt/Code/todo-clojure/src/todo_clojure/" (24001 12720 998763 593000) "core.clj" "../" "./")
-
- ("/Users/justusvoigt/Code/todo-clojure/" (23992 32521 836968 611000) "src/" "doc/" ".gitignore" ".lein-repl-history" "README.md" "resources/" ".hgignore" "target/" "CHANGELOG.md" "test/" "LICENSE" "project.clj" "../" "./")
-
  ("/Users/justusvoigt/Code/todo-clojure/src/" (23992 14827 661949 49000) "todo_clojure/" "../" "./")
-
- ("/Users/justusvoigt/Code/" (23992 14827 656898 364000) "demeter/" "Cognician/" "todo-clojure/" "../" "./")
 
  ("/Users/justusvoigt/Code/Cognician/Monolith/src/cognician/builder/" (23984 27676 691342 169000) "cog_metrics.clj" "views/" "views.clj" "drafts.clj" "entity_search.clj" "api.clj" "validation.clj" "cogdev_groups.clj" "validators.clj" "i18n.clj" "remotes.clj" "mails.clj" "../" "./")
 

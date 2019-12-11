@@ -63,7 +63,8 @@ There are two things you can do about this warning:
     idle-highlight-mode
     ace-window
     magit
-    neotree)
+    neotree
+    flycheck-clj-kondo)
   "A list of packages to ensure are installed at launch.")
 
 
@@ -124,6 +125,12 @@ There are two things you can do about this warning:
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
+
+
+ '(flycheck-clj-kondo-clj-executable "/usr/local/bin/clj-kondo")
+ '(flycheck-clj-kondo-cljc-executable "/usr/local/bin/clj-kondo")
+ '(flycheck-clj-kondo-cljs-executable "/usr/local/bin/clj-kondo")
+ '(flycheck-clj-kondo-edn-executable "/usr/local/bin/clj-kondo")
  '(ansi-color-faces-vector
    [default bold shadow italic underline bold bold-italic bold])
  '(ansi-color-names-vector
@@ -250,6 +257,19 @@ There are two things you can do about this warning:
 
 (require 'cider)
 (setq cider-pprint-fn 'pprint)
+
+
+;; requiring kondo 
+(require 'flycheck-clj-kondo)
+(add-hook 'after-init-hook #'global-flycheck-mode)
+(add-hook 'clojure-mode-hook 'flycheck-mode)
+(add-hook 'clojure-mode-hook 'paredit-mode)
+
+
+
+
+
+
 
 (auto-save-mode t)
 
